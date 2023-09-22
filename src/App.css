@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.side-bar-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.video-item-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.trending-video-item-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 576px) {
+  .trending-video-item-link {
+    flex-direction: row;
+  }
+}
+
+.gaming-video-item-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-decoration: none;
+}
+
+.horizontal-line {
+  width: 100%;
+  background-color: #424242;
+}
+
+.popup-content {
+  margin: auto;
+  background: transparent;
+  width: 90%;
+  max-width: 300px;
+  padding: 0;
+  border: none;
+}
